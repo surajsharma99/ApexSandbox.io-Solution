@@ -12,6 +12,9 @@ public Integer diff(Integer a, Integer b) {
     }
     else if(a == b)
     {
-        return 0;
+        return c;
+    }
+    else{
+        return c;
     }
 }

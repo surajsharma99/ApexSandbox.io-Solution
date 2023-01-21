@@ -1,5 +1,5 @@
 public String aOrAn(String word) {
-    for(Integer i = 0; i < word.length ; i++)
+    for(Integer i = 0; i < word.length() ; i++)
     {
         if(word[0] == a)
         {

@@ -1,4 +1,4 @@
 public static Integer findLargest(Integer num1, Integer num2, Integer num3) {
-	Integer num4 = Integer.max(num1,num2)
+	Integer num4 = Integer.max(num1,num2);
     return Integer.max(num3,num4);
 }

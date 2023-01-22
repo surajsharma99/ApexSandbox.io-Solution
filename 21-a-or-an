@@ -7,10 +7,8 @@ public String aOrAn(String word) {
                 || word.startsWithIgnoreCase('u'))
         {
             str = 'an '+ word;
-            return str;
         }else{
             str = 'a '+ word;
-            return str;
         }
     }
     return str;

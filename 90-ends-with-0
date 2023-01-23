@@ -1,12 +1,8 @@
 public Boolean isEndWithZero(Integer num){
-    for(Integer i = 0 ; i < num.length() ; i++)
+    if(num % 10 == 0)
     {
-        if(i == num.length()-1 && num.length()-1 == 0)
-        {
-            return true;
-        }
-        else
-            return false;
+        return true;
     }
-    return;
+    else
+        return false;
 }

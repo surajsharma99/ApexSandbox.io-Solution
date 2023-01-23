@@ -1,5 +1,5 @@
 public Boolean isEndWithZero(Integer num){
-    if(num % 10 == 0)
+    if(num % 10 == 0 && num % 2 == 0 && num % 5 == 0)
     {
         return true;
     }

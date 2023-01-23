@@ -8,5 +8,5 @@ public Boolean isEndWithZero(Integer num){
         else
             return false;
     }
-    return 0;
+    return;
 }
